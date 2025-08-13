@@ -36,7 +36,7 @@ case "${confirm_apply:-y}" in
 
     # Apply the kernel argument.
     # NOTE: Corrected the command to use '--append=' (with an equals sign).
-    if sudo rpm-ostree kargs --append=i915.enable_dc=0; then
+    if sudo rpm-ostree kargs --append-if-missing=i915.enable_dc=0; then
       print_line "Patch applied successfully!" "$GREEN"
       print_line "To make the change effective, you must reboot the system."
       echo ""
