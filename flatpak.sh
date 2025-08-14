@@ -1,9 +1,16 @@
 #!/bin/sh
 
-# ###################################################################
-# Script to speedup silveblue workstation setup.
-# Apps are choosen by a developer, for developers.
-# ###################################################################
+# ==============================================================================
+# --- GNOME SHELL EXTENSION INSTALLER SCRIPT (Self-Re-running Logic) ---
+#
+# This script automates the installation and activation of GNOME extensions.
+#
+# Smart Workflow:
+# 1. First Run: Installs selected extensions. Then instructs the user to
+#    restart the shell and run this same script again.
+# 2. Second Run: The script detects that extensions are already installed
+#    and proceeds to enable them, which now succeeds.
+# ==============================================================================
 
 # Source the necessary script files
 source ./art_base.sh flatpak

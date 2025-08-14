@@ -13,14 +13,13 @@ source ./art_base.sh kargs
 source ./printing_suite.sh
 
 # --- SCRIPT START ---
-clear
 print_header "Patch for Intel GPU Freezes"
 
 # --- EXPLANATION ---
 print_line "This script will help you apply a fix to prevent occasional"
 print_line "screen freezes on certain computers with Intel low-power processors."
 echo "" # Add a manual space for readability
-print_line "Technically, it will run the following command:"
+print_line "Technically, it will run the following command if the arguments is not present in kernel params:"
 print_line "sudo rpm-ostree kargs --append=i915.enable_dc=0" "$BOLD"
 echo ""
 
