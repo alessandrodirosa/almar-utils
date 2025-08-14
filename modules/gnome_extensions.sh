@@ -13,8 +13,8 @@
 # ==============================================================================
 
 # --- SOURCE REQUIRED FILES ---
-source ./art_base.sh gse
-source ./printing_suite.sh
+source core/art_base.sh gse
+source core/printing_suite.sh
 
 
 # --- SCRIPT CONFIGURATION ---

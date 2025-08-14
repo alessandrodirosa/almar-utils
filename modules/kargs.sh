@@ -9,8 +9,8 @@
 # ###################################################################
 
 # Source the necessary script files
-source ./art_base.sh kargs
-source ./printing_suite.sh
+source core/art_base.sh kargs
+source core/printing_suite.sh
 
 # --- SCRIPT START ---
 print_header "Patch for Intel GPU Freezes"

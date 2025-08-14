@@ -13,8 +13,8 @@
 # ==============================================================================
 
 # Source the necessary script files
-source ./art_base.sh flatpak
-source ./printing_suite.sh
+source core/art_base.sh flatpak
+source core/printing_suite.sh
 
 
 # --- SETUP FLATHUB REMOTE ---
@@ -36,7 +36,6 @@ io.github.flattool.Warehouse
 com.usebottles.bottles
 me.iepure.devtoolbox
 org.gnome.Boxes
-org.gnome.Builder
 "
 
 # List of applications to install system-wide.
