@@ -17,6 +17,16 @@ source core/art_base.sh gse
 source core/printing_suite.sh
 
 
+# 3193 --> Blur my shell
+# 19 --> User themes
+# 307 --> Dash to dock
+# 517 --> Caffeine
+# 615 --> Appindicator Support
+# 779 --> Clipboard Indicator
+# 1460 --> Vitals
+# 5470 --> Builder
+# 1319 --> Gsconnect
+
 # --- SCRIPT CONFIGURATION ---
 EXTENSION_IDS="
 3193
