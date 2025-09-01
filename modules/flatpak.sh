@@ -36,7 +36,6 @@ io.github.flattool.Warehouse
 com.usebottles.bottles
 me.iepure.devtoolbox
 org.gnome.Boxes
-org.gnome.Builder
 "
 
 # List of applications to install system-wide.
